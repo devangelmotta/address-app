@@ -1,0 +1,15 @@
+<div class="grid grid-cols-12 gap-4">
+
+  <div class="col-span-8 overflow-hidden bg-white shadow sm:rounded-md">
+    <ul role="list" class="divide-y divide-gray-200">
+      <app-address-item-list 
+        *ngFor="let address of addresses"
+        [item]="address"></app-address-item-list>
+    </ul>
+  </div>
+
+  <div class="col-span-4">
+    <app-address-details></app-address-details>
+  </div>
+
+</div>
