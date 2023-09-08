@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AddressService } from '../services/address.service';
+import { AddressService } from '../../services/address.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -19,6 +19,7 @@ export class AddressDetailsComponent {
   ngOnInit() {
     let params = new URLSearchParams(document.location.search);
     let id = params.get("id"); 
+    console.log(params, id)
     if(id) this.getAddressDetails(id)
   }
 

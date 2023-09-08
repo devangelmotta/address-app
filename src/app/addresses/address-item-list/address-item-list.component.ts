@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { ChangeDetectorRef, Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-address-item-list',
@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 export class AddressItemListComponent {
 
   @Input() item: any = {}
+  constructor(private cdRef:ChangeDetectorRef) { }
 
   getFirstLetter(word: string): string {
     return word.charAt(0).toUpperCase();

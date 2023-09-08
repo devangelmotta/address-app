@@ -17,4 +17,8 @@ export class AddressService {
     return this.http.get(`http://localhost:8080/api/address/${id}`)
   }
 
+  createAddress(body: object): Observable<Object> {
+    return this.http.post(`http://localhost:8080/api/address/`, body)
+  }
+
 }

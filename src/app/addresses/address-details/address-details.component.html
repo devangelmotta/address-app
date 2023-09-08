@@ -1,7 +1,7 @@
 <h2 class="sr-only">Summary</h2>
 <div 
   *ngIf="addressDetails"
-  class="rounded-lg bg-gray-50 shadow-sm ring-1 ring-gray-900/5 h-screen">
+  class="rounded-lg bg-gray-50 shadow-sm ring-1 ring-gray-900/5 h-full">
   <dl class="flex flex-wrap">
     <div class="flex-auto pl-6 pt-6">
       <dt class="leading-6">
@@ -51,7 +51,7 @@
   
 <div
   *ngIf="!addressDetails"
-  class="h-screen flex justify-center items-center">
+  class="h-full flex justify-center items-center">
   <div
     class="text-center rounded-lg bg-gray-50 shadow-sm ring-1 ring-gray-900/5 p-5">
     <ng-icon name="heroUser" size="32"></ng-icon>
