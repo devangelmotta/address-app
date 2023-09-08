@@ -1,6 +1,9 @@
 # AddressApp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+<p align="center">
+  <a href="https://youtu.be/a08sUFqM_dY">
+    <img src="https://github.com/devangelmotta/address-app/blob/373a8c475ab15f2805749828c7e151c1513c1b71/address-video.png" alt="Address video demo">
+  </a>
+</p>
 
 ## Development server
 
